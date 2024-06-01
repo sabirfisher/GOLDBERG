@@ -1,0 +1,70 @@
+                                       from urllib2 import Request, urlopen
+
+                                        values = """
+                                          {  
+                            
+{
+	"AddressLine1": "220 4th St",
+	"AddressLine2": "Brazoria, TX",
+	"Page": 1,
+	"ResultsPerPage": 10
+}
+                                          }
+                                        """
+
+                                        headers = {
+                                          'Content-Type': 'application/json',
+                                          'galaxy-ap-name': 'Key',
+                                          'galaxy-ap-password': 'Secret',
+                                          'galaxy-search-type': 'DevAPIAddressID'
+                                        }
+                                        request = Request('https://devapi.endato.com/address/id', data=values, headers=headers)
+
+                                        response_body = urlopen(request).read()
+                                        print response_body
+
+                                ---
+
+{
+	"persons": [
+		{
+			"name": {
+				"firstName": "Douglas",
+				"middleName": "L",
+				"lastName": "Brown"
+			},
+			"age": "45",
+			"addresses": [],
+			"phones": [],
+			"emails": []
+		},
+		{
+			"name": {
+				"firstName": "Aubrey",
+				"middleName": "M",
+				"lastName": "Brown"
+			},
+			"age": "42",
+			"addresses": [],
+			"phones": [],
+			"emails": []
+		}
+	],
+	"pagination": {
+		"currentPageNumber": 1,
+		"resultsPerPage": 1,
+		"totalPages": 1,
+		"totalResults": 0
+	},
+	"databaseQueryInfo": [],
+	"searchCriteria": [],
+	"totalRequestExecutionTimeMs": 140,
+	"requestId": "54274270-a04a-497f-b15f-33f5cd7e6f1f",
+	"requestType": "DevAPIAddressID",
+	"requestTime": "2024-05-31T23:41:09.2744323-07:00",
+	"isError": false,
+	"error": {
+		"inputErrors": [],
+		"warnings": []
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "persons": [
+        {
+            "name": {
+                "firstName": "Darla",
+                "middleName": "B",
+                "lastName": "Griffin"
+            },
+            "age": "62",
+            "addresses": [],
+            "phones": [],
+            "emails": []
+        },
+        {
+            "name": {
+                "firstName": "Doris",
+                "middleName": "W",
+                "lastName": "Griffin"
+            },
+            "age": null,
+            "addresses": [],
+            "phones": [],
+            "emails": []
+        }
+    ],
+    "pagination": {
+        "currentPageNumber": 1,
+        "resultsPerPage": 1,
+        "totalPages": 1,
+        "totalResults": 0
+    },
+    "databaseQueryInfo": [],
+    "searchCriteria": [],
+    "totalRequestExecutionTimeMs": 158,
+    "requestId": "9089d4a5-6e1a-4cff-89d9-7fdfbbdd0dcb",
+    "requestType": "DevAPIAddressID",
+    "requestTime": "2024-06-01T00:24:34.3151504-07:00",
+    "isError": false,
+    "error": {
+        "inputErrors": [],
+        "warnings": []
+    }
+}

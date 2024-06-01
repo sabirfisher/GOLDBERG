@@ -1,0 +1,105 @@
+2024-06-01 01:31:27,938 - ERROR - Error extracting text from /search?q=1234+Main+Street,+Los+Angeles,+CA&sca_esv=87931902054ff09b&ie=UTF-8&tbm=shop&source=lnms&ved=1t:200713&ictx=111: No connection adapters were found for '/search?q=1234+Main+Street,+Los+Angeles,+CA&sca_esv=87931902054ff09b&ie=UTF-8&tbm=shop&source=lnms&ved=1t:200713&ictx=111'
+2024-06-01 01:31:27,938 - INFO - Extracted text from /search?q=1234+Main+Street,+Los+Angeles,+CA&sca_esv=87931902054ff09b&ie=UTF-8&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-06-01 01:31:28,278 - INFO - Extracted text from https://www.trulia.com/home/1234-main-st-los-angeles-ca-90017-2075121264
+2024-06-01 01:31:28,456 - ERROR - Error extracting text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90017/2075121264_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90017/2075121264_zpid/
+2024-06-01 01:31:28,456 - INFO - Extracted text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90017/2075121264_zpid/
+2024-06-01 01:31:28,635 - ERROR - Error extracting text from https://www.realtor.com/realestateandhomes-detail/1234-Main-St_Los-Angeles-City_CA_91111_M24370-18554: 403 Client Error: Forbidden for url: https://www.realtor.com/realestateandhomes-detail/1234-Main-St_Los-Angeles-City_CA_91111_M24370-18554
+2024-06-01 01:31:28,635 - INFO - Extracted text from https://www.realtor.com/realestateandhomes-detail/1234-Main-St_Los-Angeles-City_CA_91111_M24370-18554
+2024-06-01 01:31:28,945 - ERROR - Error extracting text from https://www.redfin.com/CA/Los-Angeles/1234-Main-ST-91111/home/172334010: 429 Client Error: Too Many Requests for url: https://ratelimited.redfin.com/
+2024-06-01 01:31:28,946 - INFO - Extracted text from https://www.redfin.com/CA/Los-Angeles/1234-Main-ST-91111/home/172334010
+2024-06-01 01:31:29,735 - INFO - Extracted text from https://www.youtube.com/watch?v=R-AIQW-u_VY
+2024-06-01 01:31:29,921 - ERROR - Error extracting text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90041/2053359513_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90041/2053359513_zpid/
+2024-06-01 01:31:29,922 - INFO - Extracted text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90041/2053359513_zpid/
+2024-06-01 01:31:30,301 - INFO - Extracted text from https://www.trulia.com/home/1234-main-st-los-angeles-ca-90041-2053359513
+2024-06-01 01:31:30,608 - ERROR - Error extracting text from https://www.movoto.com/los-angeles-ca/1234-main-st-los-angeles-ca-91111-202_314031642/: 403 Client Error: Forbidden for url: https://www.movoto.com/los-angeles-ca/1234-main-st-los-angeles-ca-91111-202_314031642/
+2024-06-01 01:31:30,608 - INFO - Extracted text from https://www.movoto.com/los-angeles-ca/1234-main-st-los-angeles-ca-91111-202_314031642/
+2024-06-01 01:31:40,722 - ERROR - Error extracting text from https://www.loopnet.com/Listing/14385697/1234-Main-St-Los-Angeles-CA/: HTTPSConnectionPool(host='www.loopnet.com', port=443): Read timed out. (read timeout=10)
+2024-06-01 01:31:40,722 - INFO - Extracted text from https://www.loopnet.com/Listing/14385697/1234-Main-St-Los-Angeles-CA/
+2024-06-01 01:31:42,652 - INFO - Extracted text from https://hauseheaven.com/properties/1234-main-street
+2024-06-01 01:31:42,652 - INFO - All extracted text merged in 1234_Main_Street,_Los_Angeles,_CA_merged_text.txt
+2024-06-01 01:31:43,142 - ERROR - Endato API error: 404 - <!DOCTYPE html>
+<html
+    lang="en">
+<head>
+    
+<!-- appsettings CSS vars -->
+<style type="text/css">
+    :root {
+        --css-blue-hex: #4ca8f7;
+        --css-blue-filter: invert(57%) sepia(92%) saturate(1144%) hue-rotate(181deg) brightness(97%) contrast(100%);
+    }
+
+    .swal2-html-container{
+        text-align: left !important;
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" />
+<link rel="stylesheet" href="/lib/select2/css/select2.min.css?v=SnZBxsWDBioGjBVDiSKmq1CH2oR9UdGLNpKbAT8QZnE" type="text/css" />
+<script src="/lib/jquery/jquery.min.js?v=zp0HUArZHsK1JMJwdk7EyaM-eDINjTdOxADt5Ij2JRs"></script>
+<script src="/js/GoogleTagManagerEvents.js"></script>
+<!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <script src="/js/selectivizr-min.js"></script>
+    <script src="/js/placeholders.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/beaver-logger"></script>
+    <link rel="stylesheet" href="/css/ie8.css">
+<![endif]-->
+
+<script src="/lib/apex-charts/apexcharts.min.js?v=A1mqVQs21RdpWBdefnzvfeWqXCOyPPJhc3ClCxlZcbc"></script>
+<script src="/lib/select2/js/select2.min.js?v=K3ojeTak4bWOP8RslHWjWuS5X5-99MIcFNVtrBM7bc0"></script>
+<script src="/js/moment.js?v=EkM5FOoYMY6GoGVDTJBVIPBhoCv14adUcj31tpg5ymw"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div
+    class="wrapper d-flex align-items-center justify-content-center"
+    style="height: 100vh;">
+    <div
+        class="row">
+        <div
+            class="col-12 offset-3"
+            style="max-width: 50%;">
+            <div
+                class="card">
+                <div
+                    class="card-body text-center">
+                    <h2>Not Found</h2>
+                    <hr/>
+                    <p>The page you requested could not be found. Please go back and try again.</p>
+                    <a
+                        class="btn btn-link"
+                        href="javascript:window.history.back();">
+                        Go Back
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+2024-06-01 01:31:43,142 - ERROR - Failed to retrieve data from Endato for 1234 Main Street, Los Angeles, CA
+2024-06-01 01:32:14,529 - INFO - Starting enhanced reconnaissance...
+2024-06-01 01:32:14,529 - ERROR - Enhanced reconnaissance error: enhanced_web_scraping() missing 1 required positional argument: 'endato_api_key'
+2024-06-01 01:32:14,529 - INFO - Enhanced reconnaissance completed.
+2024-06-01 02:38:52,286 - ERROR - Error extracting text from /search?q=1234+Main+Street,+Los+Angeles,+CA&sca_esv=d0fa906fcf5ed962&ie=UTF-8&tbm=shop&source=lnms&ved=1t:200713&ictx=111: No connection adapters were found for '/search?q=1234+Main+Street,+Los+Angeles,+CA&sca_esv=d0fa906fcf5ed962&ie=UTF-8&tbm=shop&source=lnms&ved=1t:200713&ictx=111'
+2024-06-01 02:38:52,290 - INFO - Extracted text from /search?q=1234+Main+Street,+Los+Angeles,+CA&sca_esv=d0fa906fcf5ed962&ie=UTF-8&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-06-01 02:38:53,012 - INFO - Extracted text from https://www.trulia.com/home/1234-main-st-los-angeles-ca-90017-2075121264
+2024-06-01 02:38:53,211 - ERROR - Error extracting text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90017/2075121264_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90017/2075121264_zpid/
+2024-06-01 02:38:53,212 - INFO - Extracted text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90017/2075121264_zpid/
+2024-06-01 02:38:53,400 - ERROR - Error extracting text from https://www.realtor.com/realestateandhomes-detail/1234-Main-St_Los-Angeles-City_CA_91111_M24370-18554: 403 Client Error: Forbidden for url: https://www.realtor.com/realestateandhomes-detail/1234-Main-St_Los-Angeles-City_CA_91111_M24370-18554
+2024-06-01 02:38:53,400 - INFO - Extracted text from https://www.realtor.com/realestateandhomes-detail/1234-Main-St_Los-Angeles-City_CA_91111_M24370-18554
+2024-06-01 02:38:53,675 - ERROR - Error extracting text from https://www.redfin.com/CA/Los-Angeles/1234-Main-ST-91111/home/172334010: 429 Client Error: Too Many Requests for url: https://ratelimited.redfin.com/
+2024-06-01 02:38:53,676 - INFO - Extracted text from https://www.redfin.com/CA/Los-Angeles/1234-Main-ST-91111/home/172334010
+2024-06-01 02:38:54,276 - INFO - Extracted text from https://www.youtube.com/watch?v=R-AIQW-u_VY
+2024-06-01 02:38:54,447 - ERROR - Error extracting text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90041/2053359513_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90041/2053359513_zpid/
+2024-06-01 02:38:54,448 - INFO - Extracted text from https://www.zillow.com/homedetails/1234-Main-St-Los-Angeles-CA-90041/2053359513_zpid/
+2024-06-01 02:38:55,018 - INFO - Extracted text from https://www.trulia.com/home/1234-main-st-los-angeles-ca-90041-2053359513
+2024-06-01 02:38:55,315 - ERROR - Error extracting text from https://www.movoto.com/los-angeles-ca/1234-main-st-los-angeles-ca-91111-202_314031642/: 403 Client Error: Forbidden for url: https://www.movoto.com/los-angeles-ca/1234-main-st-los-angeles-ca-91111-202_314031642/
+2024-06-01 02:38:55,316 - INFO - Extracted text from https://www.movoto.com/los-angeles-ca/1234-main-st-los-angeles-ca-91111-202_314031642/
